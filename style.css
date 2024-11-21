@@ -1,0 +1,67 @@
+.box {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 30px;
+    color: rgb(40, 130, 28);
+    font-family: 'Space Mono';
+}
+
+.place {
+    font-size: 24px;
+    color: rgb(102, 204, 77);
+    font-family: 'Space Mono';
+}
+
+.img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.price {
+    font-size: 22px;
+    color: rgb(226, 179, 84);
+    font-weight: 600;
+    font-family: 'Space Mono';
+}
+
+/* ------ Students ------ */
+
+.form {
+    margin-top: 150px;
+    max-width: 600px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.label {
+    text-transform: uppercase;
+    font-family: 'Space Mono';
+}
+
+.input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.input-name {}
+
+.input-surname {}
+
+.input-age {}
+
+.input-course {}
+
+.input-faculty {}
+
+.input-list {}
